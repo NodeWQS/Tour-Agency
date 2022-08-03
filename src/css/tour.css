@@ -1,0 +1,48 @@
+body{
+    background-color: #3D3232;
+}
+.container{
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1278px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.tours_cont{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.country button{
+    border-radius: 15px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 50px;
+    border: none;
+    font-size: 23px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1024px) {
+    .tours_cont{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 880px) {
+    a{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 560px) {
+    a{
+        margin: 0 auto;
+    }
+    .card{
+        margin-right: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+form {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 500px;
+}
+input{
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    height: 30px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+textarea {
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+.form_btn{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 15px; 
+}
